@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar';
 import Landing from './pages/landing';
+import Portfolio from './pages/portfolio';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Landing/>}/>
-          <Route />
+          <Route path='/porfolio' element={<Portfolio/>} />
           <Route />
           <Route />
         </Routes>
