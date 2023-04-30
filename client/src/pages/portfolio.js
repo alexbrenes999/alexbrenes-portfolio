@@ -1,11 +1,11 @@
 import React from "react";
-import quiz from '../../public/images/codequz.gif';
-import gamespot from '../../public/images/gmspott.gif';
-import hori from '../../public/images/horiseon.gif';
-import papayon from '../../public/images/papayon port.gif';
-import threejsdemo from '../../public/images/threejsdemo.gif';
-import passwordgen from '../../public/images/trupssgen.gif';
-import schedule from '../../public/images/wrksche.gif';
+import quiz from '../images/codequz.gif';
+import gamespot from '../images/gmspott.gif';
+import hori from '../images/horiseon.gif';
+import papayon from '../images/papayon port.gif';
+import threejsdemo from '../images/threejsdemo.gif';
+// import passwordgen from '../images/trupssgen.gif';
+import schedule from '../images/wrksche.gif';
 
 function Portfolio() {
     return (
@@ -18,27 +18,27 @@ function Portfolio() {
                 <div className="pr-16 pl-32 py-5">
                     <img href="https://alexbrenes999.github.io/project1/"
                             className="gamespot rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src={gamespot} alt=""/>
+                            src={gamespot} alt="controller"/>
                 </div>
                 <div className="pl-16 pr-32 py-5">
                     <img href="https://papayon-app.herokuapp.com/" className="papayon port rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src={papayon} alt=""/>
+                            src={papayon} alt="pizza"/>
                 </div>
                 <div className="pr-16 pl-32 py-5">
                     <a href="https://alexbrenes999.github.io/code-quiz/"><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src="./assets/images/codequz.gif"/></a>
+                            src={quiz} alt="code screen"/></a>
                 </div>
                 <div className="pl-16 pr-32 py-5">
                     <a href="https://alexbrenes999.github.io/work-day-schedule/"><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src="./assets/images/wrksche.gif"/></a>
+                            src={schedule} alt="calendar"/></a>
                 </div>
                 <div className="pr-16 pl-32 py-5">
-                    <a href=""><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src="./assets/images/horiseon.gif"/></a>
+                    <a href="https://www.google.com"><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
+                            src={hori} alt="businessmen"/></a>
                 </div>
                 <div className="pl-16 pr-32 py-5">
-                    <a href=""><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
-                            src="./assets/images/threejsdemo.gif"/></a>
+                    <a href="https://www.google.com"><img className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl"
+                            src={threejsdemo} alt="orb"/></a>
                 </div>
             </div>
 
@@ -46,6 +46,6 @@ function Portfolio() {
                 <a href=""><h2 className="hover:scale-105 underline pt-5 text-xl">View All</h2></a>
             </div>
         </div>
-    )}
+    )};
 
     export default Portfolio;
