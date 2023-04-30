@@ -4,7 +4,6 @@ import gamespot from '../images/gmspott.gif';
 import hori from '../images/horiseon.gif';
 import papayon from '../images/papayon port.gif';
 import threejsdemo from '../images/threejsdemo.gif';
-// import passwordgen from '../images/trupssgen.gif';
 import schedule from '../images/wrksche.gif';
 
 function Portfolio() {
