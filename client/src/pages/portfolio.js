@@ -9,7 +9,7 @@ import schedule from '../images/wrksche.gif';
 function Portfolio() {
     return (
 
-        <div>
+        <div className="bg-zinc-900 text-gray-300">
             <div className="flex justify-center">
                 <h2 className="underline999 text-5xl pb-20">Portfolio</h2>
             </div>

@@ -8,7 +8,7 @@ function Navbar() {
                 <Link className="pl-5 pr-2.5 border-5 border-white" to="/">Home</Link>
                 <Link className="px-2.5" to="/portfolio">Portfolio</Link>
                 <Link className="px-2.5" to="/about">About</Link>
-                <Link className="pl-2.5 pr-5" to="/contact">Contact</Link>
+                {/* <Link className="pl-2.5 pr-5" to="/contact">Contact</Link> */}
             </div>
         </div>
     )

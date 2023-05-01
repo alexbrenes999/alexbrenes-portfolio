@@ -1,20 +1,22 @@
 import React from "react";
+import stud from '../images/studiiiimufinnn.PNG';
 
 function Landing() {
     return (
-        <div>
+        <div className="bg-zinc-900 text-gray-300">
             <div className="spacer2 newspk mt-14"></div>
 
-            <div>
+            <div className="">
                 <h1 className="flex justify-center text-7xl">ALEX BRENES</h1>
-                <p className="flex justify-center text-5xl font-bold pb-12">THE SPIEL OF A FRONT-END WEB DEVELOPER</p>
+                <img className="block ml-auto mr-auto" src={stud}/>
+                <p className="flex justify-center text-5xl font-bold pb-12">THE SPIEL OF A FULL STACK WEB DEVELOPER</p>
             </div>
 
             <div className="pt-16 pb-8">
                 <div className="text-4xl">
-                    <p className="flex justify-center">Front-End Web Developer | Soon to be</p>
-                    <p className="flex justify-center">Full-Stack Web Developer | UCF Bootcamp</p>
-                    <p className="flex justify-center">Student | Pixel Aesthetic Aficionado</p>
+                    <p className="flex justify-center">Full-Stack Web Developer | MERN Stack</p>
+                    <p className="flex justify-center">Always hungry to learn more | UCF Bootcamp</p>
+                    <p className="flex justify-center">Graduate | Pixel Aesthetic Aficionado</p>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div className="bg-zinc-900 text-gray-300">
 
             {/* <!--Title--> */}
             <h2 className="underline999 text-5xl flex justify-center pb-20">About</h2>
