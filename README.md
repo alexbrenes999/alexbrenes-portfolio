@@ -40,11 +40,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## ScreenShoots
 
-### 
+### About
 ![Web capture_30-4-2023_225640_localhost](https://user-images.githubusercontent.com/116224156/235396370-7efda775-ba7d-4cba-a660-4e27832f559a.jpeg)
 
-###
+### Portfolio
 ![Web capture_30-4-2023_225632_localhost](https://user-images.githubusercontent.com/116224156/235396390-22d00235-e2f7-4774-b019-8a9fcd3c0a39.jpeg)
 
-###
+### Home
 ![Web capture_30-4-2023_225615_localhost](https://user-images.githubusercontent.com/116224156/235396401-67bec73b-7b87-4ef0-80f7-f001568486b1.jpeg)
